@@ -1,0 +1,37 @@
+/** Functions */
+
+@function rem($size) {
+	$remSize: $size / #{$font-size};
+	@return #{$remSize}rem;
+}
+
+/** Viewports */
+$vp-mobile: 375px;
+$vp-desktop: 1440px;
+
+/* Colors */
+
+/* Primary */
+$dark-grayish-blue: hsl(240, 6%, 50%);
+$light-grayish-blue: hsl(240, 5%, 91%);
+$link-blue: hsl(228, 45%, 44%);
+$soft-red: hsl(14, 88%, 65%);
+$very-dark-desaturated-blue: hsl(238, 29%, 16%);
+$very-dark-grayish-blue: hsl(237, 12%, 33%);
+
+/* Gradient */
+$soft-blue: hsl(240, 73%, 65%);
+$soft-violet: hsl(273, 75%, 66%);
+
+/* Fonts */
+
+/* Font Family */
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+$font-family-body: "Kumbh Sans", sans-serif;
+
+/* Sizes */
+$font-size: 12px;
+
+/* Font-weights */
+$font-weight-normal: 400;
+$font-weight-bold: 700;
